@@ -18,6 +18,11 @@
 			var num2=document.getElementById('snumber').value*1.0;
 			document.getElementById('result').innerHTML=num1*num2;
 			}
+			function minusTwoNumbers()
+			{var num1=document.getElementById('fnumber').value*1.0;
+			var num2=document.getElementById('snumber').value*1.0;
+			document.getElementById('result').innerHTML=num1-num2;
+			}
 		</script>
 	</head>
 	<body>
@@ -36,7 +41,10 @@
 		</button>
 		<button onclick="multiplication()">
 		multiply
-		</button>  
+		</button>
+		<button onclick="minusTwoNumbers()">
+		minus
+		</button>
 		<p id="result">
 		</p>
 	</body> 
